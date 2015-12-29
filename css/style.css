@@ -60,6 +60,9 @@ p {
   h5 {
     font-size: 1.25em;
   }
+  .slider ul.slides li img{
+    background-position: initial;
+  }
 }
 .icon-block {
   padding: 0 15px;
