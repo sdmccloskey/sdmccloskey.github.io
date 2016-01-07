@@ -8317,13 +8317,18 @@ ul.slides li.active {
 
 #social-icons {
     margin-top: 35px;
+
 }
 
 #social-icons a {
-    text-decoration: none;
-
+    text-decoration: none;   
 
 }
+
+.social-row {
+  margin-left: 22px;
+}
+
 a .fa-stack-overflow, .fa-github, .fa-linkedin, .fa-twitter, .fa-envelope {
     text-decoration: none;
 
@@ -8360,3 +8365,4 @@ a .fa-stack-overflow, .fa-github, .fa-linkedin, .fa-twitter, .fa-envelope {
     border-left: 4px solid #0880b9;
     background-color: #333;
 }
+
