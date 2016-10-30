@@ -31,6 +31,7 @@
 
 
 <body>
+  <div data-sr>
   <div class="site__wrapper  anim--top">
     <div class="all-body-click-region  inner__wrapper" style="">
       <div class="slider fullscreen" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
@@ -59,13 +60,8 @@
       <div class="cover__container global-text-color center">
         <div style="text-align:center;margin-top:120px;">
           <h1 class="header center white-text text-lighten-2">Shane McCloskey</h1>
-          <!--  <div style="text-align:center;margin-top:250px;">
-          <a href="/about" class="waves-effect  waves-light  btn  btn-large  opac-btn">
-          About Me
-        </a>
-        <a href="/blog" class="waves-effect  waves-light  btn  btn-large  opac-btn">
-        Explore More
-      </a> -->
+           <div style="text-align:center;margin-top:450px;">
+          <a href="https://drive.google.com/file/d/0BySC8_1nCQiuS0xobmFiOFYwb1E/view?usp=sharing" class="waves-effect transparent btn  btn-large  opac-btn"><i class="material-icons right">assignment</i>View My Resume</a>
     </div>
   </div>
 </div>
@@ -99,8 +95,8 @@
       <li><a href="/index" class="active"><i class="small material-icons">home</i> Home</a></li>
       <li><a href="/projects" class="side--projects"><i class="small material-icons">code</i> Projects</a></li>
       <li><a href="http://blog.mccloskey.me" class="side--blog"><i class="small material-icons">chat</i> Blog</a></li>
-      <li><a href="/about" class="side--about"><i class="small material-icons">person</i> About</a></li>
-      <li><a href="/contact" class="side--contact"><i class="small material-icons">send</i> Contact</a></li>
+      <li><a href="https://drive.google.com/open?id=0BySC8_1nCQiuS0xobmFiOFYwb1E" class="side--about"><i class="small material-icons">person</i> Resume</a></li>
+      <li><a href="mailto:shane@mccloskey.me" class="side--contact"><i class="small material-icons">send</i> Contact</a></li>
     </ul>
     <!-- <li><a href="#!">First Sidebar Link</a></li>
     <li><a href="#!">Second Sidebar Link</a></li> -->
@@ -117,7 +113,7 @@
 </div> -->
 </nav>
 </div>
-
+</div>
 
 
 <!-- Spinner -->
@@ -190,7 +186,7 @@ Explore More
         <div class="section">
 
           <!--   Icon Section   -->
-          <div class="row">
+          <div class="row" data-wow-delay="1s">
             <div class="col s12 m4">
               <div class="icon-block">
                 <h2 class="wow animated rollIn center brown-text"><i class="material-icons">flash_on</i></h2>
@@ -201,21 +197,21 @@ Explore More
 
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="wow animated rollIn center brown-text" data-wow-delay="1s"><i class="material-icons">group</i></h2>
+                <h2 class="wow animated rollIn center brown-text" ><i class="material-icons">group</i></h2>
 
-                <h5 class="wow animated rollIn center" data-wow-delay="1s">Love to Network</h5>
+                <h5 class="wow animated rollIn center" >Love to Network</h5>
 
-                <p class="wow animated rollIn light" data-wow-delay="1s">You know the person in high school that wasnt part of just one group of people? The one that was friends with all the groups? That was me. I have always been able to find something in common with people from all walks of life. I think that has helped me in my professional life as a consultant. You can transform yourself and find a way to connect with someone. </p>
+                <p class="wow animated rollIn light" >You know the person in high school that wasnt part of just one group of people? The one that was friends with all the groups? That was me. I have always been able to find something in common with people from all walks of life. I think that has helped me in my professional life as a consultant. You can transform yourself and find a way to connect with someone. </p>
               </div>
             </div>
 
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="wow animated rollIn center brown-text" data-wow-delay="2s"><i class="material-icons">settings</i></h2>
+                <h2 class="wow animated rollIn center brown-text" ><i class="material-icons">settings</i></h2>
 
-                <h5 class="wow animated rollIn center" data-wow-delay="2s">Easy to work with</h5>
+                <h5 class="wow animated rollIn center" >Easy to work with</h5>
 
-                <p class="wow animated rollIn light" data-wow-delay="2s">Easy going but always on task. I have learned how to manage people and time to make the workplace less stressful even during close deadlines. I am a firm believer of happy people will work harder and more efficient.</p>
+                <p class="wow animated rollIn light" >Easy going but always on task. I have learned how to manage people and time to make the workplace less stressful even during close deadlines. I am a firm believer of happy people will work harder and more efficient.</p>
               </div>
             </div>
           </div>
@@ -369,6 +365,12 @@ Materialize.scrollFire(options);
 <script src="js/wow.min.js"></script>
 <script>
 new WOW().init();
+</script>
+
+<!-- scroll JS -->
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script>
+new scrollReveal();
 </script>
 
 </body>
