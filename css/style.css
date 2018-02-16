@@ -6,6 +6,154 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+ .skillbar {
+ 	position:relative;
+ 	display:block;
+ 	margin-bottom:15px;
+ 	width:100%;
+ 	background:#eee;
+ 	height:35px;
+ 	border-radius:3px;
+ 	-moz-border-radius:3px;
+ 	-webkit-border-radius:3px;
+ 	-webkit-transition:0.4s linear;
+ 	-moz-transition:0.4s linear;
+ 	-ms-transition:0.4s linear;
+ 	-o-transition:0.4s linear;
+ 	transition:0.4s linear;
+ 	-webkit-transition-property:width, background-color;
+ 	-moz-transition-property:width, background-color;
+ 	-ms-transition-property:width, background-color;
+ 	-o-transition-property:width, background-color;
+ 	transition-property:width, background-color;
+ }
+
+ .skillbar-title {
+ 	position:absolute;
+ 	top:0;
+ 	left:0;
+ width:110px;
+ 	font-weight:bold;
+ 	font-size:13px;
+ 	color:#ffffff;
+ 	background:#6adcfa;
+ 	-webkit-border-top-left-radius:3px;
+ 	-webkit-border-bottom-left-radius:4px;
+ 	-moz-border-radius-topleft:3px;
+ 	-moz-border-radius-bottomleft:3px;
+ 	border-top-left-radius:3px;
+ 	border-bottom-left-radius:3px;
+ }
+
+ .skillbar-title span {
+ 	display:block;
+ 	background:rgba(0, 0, 0, 0.1);
+ 	padding:0 20px;
+ 	height:35px;
+ 	line-height:35px;
+ 	-webkit-border-top-left-radius:3px;
+ 	-webkit-border-bottom-left-radius:3px;
+ 	-moz-border-radius-topleft:3px;
+ 	-moz-border-radius-bottomleft:3px;
+ 	border-top-left-radius:3px;
+ 	border-bottom-left-radius:3px;
+ }
+
+ .skillbar-bar {
+ 	height:35px;
+ 	width:0px;
+ 	background:#6adcfa;
+ 	border-radius:3px;
+ 	-moz-border-radius:3px;
+ 	-webkit-border-radius:3px;
+ }
+
+ .skill-bar-percent {
+ 	position:absolute;
+ 	right:10px;
+ 	top:0;
+ 	font-size:11px;
+ 	height:35px;
+ 	line-height:35px;
+ 	color:#ffffff;
+ 	color:rgba(0, 0, 0, 0.4);
+ }
+
+ .spinner-wrapper {
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #2b8731;
+ z-index: 999999;
+ }
+
+ .spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  position: absolute;
+  top: 48%;
+  left: 48%;
+
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  } 50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+  } 100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+
+ .typed-cursor {
+         opacity: 1;
+         animation: blink .7s infinite;
+     }
+
+     @keyframes blink {
+         0% {
+             opacity: 1;
+         }
+         50% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+     }
+
+.navbar-fixed {position: absolute;
+  z-index:9;
+}
+
+ html,body {
+     margin:0;
+     padding:0;
+ }
+
+.vh {
+  height: 100vh;
+  width: 100%;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -16,7 +164,8 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #F18F01;
+
 }
 
 .parallax-container {

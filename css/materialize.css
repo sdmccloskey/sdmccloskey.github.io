@@ -5258,9 +5258,9 @@ span.badge {
         margin-left: 100%; } }
 
 nav {
-  padding-top: 15px;
+  padding-top: 0px;
   padding-left: 15px;
-  color: #fff;
+  color: transparent;
   width: 100%;
   height: 56px;
   line-height: 56px; }
@@ -5277,9 +5277,11 @@ nav {
     nav a.button-collapse {
       display: none; } }
   nav .button-collapse {
-    color: #ffffff;
+    padding: 0;
+    margin: 0 !important;
+    color: #b0bec5;
     float: left;
-    position: relative;
+    position: absolute;
     z-index: 1;
     height: 56px; }
     nav .button-collapse i {
@@ -6124,6 +6126,7 @@ a.waves-effect .waves-ripple {
     padding: 2rem; }
 
 .side-nav .collapsible {
+  z-index: 10;
   border: none;
   box-shadow: none; }
 .side-nav .collapsible li {
@@ -8321,7 +8324,7 @@ ul.slides li.active {
 }
 
 #social-icons a {
-    text-decoration: none;   
+    text-decoration: none;
 
 }
 
@@ -8335,7 +8338,7 @@ a .fa-stack-overflow, .fa-github, .fa-linkedin, .fa-twitter, .fa-envelope {
 }
 .fa-stack-overflow, .fa-github, .fa-linkedin-square, .fa-twitter, .fa-envelope {
     color: #C0C0C0;
-    
+
     /*transition: all 0.1s ease 0.1s;*/
     text-decoration: none;
 }
@@ -8366,3 +8369,6 @@ a .fa-stack-overflow, .fa-github, .fa-linkedin, .fa-twitter, .fa-envelope {
     background-color: #333;
 }
 
+.navbar-fixed {
+  position: absolute;z-index:999999999;
+}

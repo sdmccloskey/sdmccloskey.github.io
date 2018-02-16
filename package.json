@@ -1,0 +1,22 @@
+{
+  "name": "sdmccloskey.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdmccloskey/sdmccloskey.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdmccloskey/sdmccloskey.github.io/issues"
+  },
+  "homepage": "https://github.com/sdmccloskey/sdmccloskey.github.io#readme",
+  "dependencies": {
+    "typed.js": "^2.0.6"
+  }
+}
