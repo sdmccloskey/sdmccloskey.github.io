@@ -8,6 +8,13 @@
 
 
 
+
+
+
+
+@media only screen and (max-width: 600px) { .row.valign-wrapper { display: inherit; } }
+
+
  .skillbar {
  	position:relative;
  	display:block;
@@ -123,6 +130,10 @@
 }
 
 
+#slide-out1{
+  background-color: #1f1f1f
+}
+
  .typed-cursor {
          opacity: 1;
          animation: blink .7s infinite;
@@ -168,6 +179,7 @@ p {
 
 }
 
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -197,7 +209,7 @@ p {
 @media only screen and (max-width: 430px){
   h1 {
     font-size: 2.3em;
-    margin-top: -17%;
+    margin-top: 4%;
     margin-left: 65px;
   }
 
